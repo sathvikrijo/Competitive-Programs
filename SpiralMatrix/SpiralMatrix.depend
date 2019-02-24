@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1517052045 source:c:\users\sarath\desktop\spiralmatrix\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1517053269 source:e:\my types\c c++\spiralmatrix\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1541421024 source:e:\my types\c c++\attributeparser\main.cpp
+	<iostream>
+	<sstream>
+	<string.h>
+	<algorithm>
+	<map>
+

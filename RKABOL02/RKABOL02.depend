@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523372902 source:e:\my types\c c++\rkabol02\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+

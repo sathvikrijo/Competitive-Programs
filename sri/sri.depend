@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1539525577 source:e:\my types\c c++\sri\main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+	<ctype.h>
+

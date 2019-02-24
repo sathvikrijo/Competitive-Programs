@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523541329 source:e:\my types\c c++\goodpre\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+

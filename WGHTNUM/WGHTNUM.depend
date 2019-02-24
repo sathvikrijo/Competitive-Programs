@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523355484 source:e:\my types\c c++\wghtnum\main.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+

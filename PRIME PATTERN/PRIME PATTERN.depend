@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1537590553 source:e:\my types\c c++\prime pattern\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<bits/stdc++.h>
+

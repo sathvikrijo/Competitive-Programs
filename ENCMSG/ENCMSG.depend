@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532278780 source:e:\my types\c c++\encmsg\main.cpp
+	<iostream>
+	<string.h>
+

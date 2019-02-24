@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1521056420 source:e:\my types\c c++\sumofsame\main.c
+	<stdio.h>
+	<stdlib.h>
+

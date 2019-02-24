@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543926591 source:e:\my types\c c++ programs\string task\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+
