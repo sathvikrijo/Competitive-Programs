@@ -4,28 +4,33 @@ using namespace std;
 void lengthEncoding(char *input)
 {
     int itr=-1, len = strlen(input);
-    char count = '0';
-    for(int i=0; i<len; i++)
+    char count = '0', tempchar=input[0], tempcount='1';
+    for(int i=1; i<len; i++)
     {
-        if(i+1!=len && (input[i]!=input[i+1]))
+        if(i+1!=len && (tempchar!=input[i]))
         {
-            count++;
-            input[++itr] = input[i];
-            input[++itr] = count;
-            count='0';
-            continue;
+            itr++;
+            input[itr] = tempchar;
+            tempchar = input[i+1];
+            input[++itr] = tempcount;
+            tempcount = '1';
         }
-        else if(i+1==len && count=='0')
+        else if(i+1!=len && (tempchar==input[i]))
         {
-            input[++itr] = input[i];
+            tempcount++;
         }
-        else if(i+1==len && count!='0')
+        else if(i+1==len)
         {
-            count++;
-            input[++itr] = input[i];
-            input[++itr] = count;
+            if(tempchar==input[i])
+                tempcount++;
+            itr++;
+            input[itr] = tempchar;
+            if(tempcount!=0)
+            {
+                input[++itr] = tempcount;
+                tempcount = '1';
+            }
         }
-        count++;
     }
     input[++itr] = '\0';
     cout<<"Result: "<<input<<endl;
