@@ -37,8 +37,8 @@ int main()
         }
         if(zeros > 1)
             count += formulate(zeros);
-        if(ones > 1)
-            count += formulate(ones);
+        //if(ones > 1)
+            //count += formulate(ones);
         if(twos > 1)
             count += formulate(twos);
         cout<<count<<endl;
